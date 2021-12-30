@@ -146,7 +146,8 @@ export default {
           lastCommit: process.env.LAST_COMMIT || ''
         })
       })
-    ]
+    ],
+    extractCSS: true
   },
 
   router: {
